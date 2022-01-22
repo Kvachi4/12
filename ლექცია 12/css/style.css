@@ -1,0 +1,72 @@
+@font-face {
+    font-family: alk-sanet;
+    src: url(../font/alk-sanet.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+}
+
+.formbox{
+   
+    position: relative;
+    left: 500px;
+}
+
+
+
+.emailinput{
+    width: 350px !important;
+    border-radius: 25px;
+    padding: 7px;
+    border-color: rgba(190, 190, 190, 0.507);
+}
+
+.password{
+    width: 350px !important;
+    border-radius: 25px;
+    padding: 7px;
+    border-color: rgba(190, 190, 190, 0.507);
+
+}
+
+
+.button{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    border: none;
+    font-family: alk-sanet;
+    font-weight: bold;
+
+}
+
+
+.google{
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color:red;
+    color: white;
+    border: none;
+
+}
+
+.facebook{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color:navy;
+    color: white;
+    border: none;
+}
+

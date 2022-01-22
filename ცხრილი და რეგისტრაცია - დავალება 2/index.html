@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta name="description" content="ცხრილები და საიტზე რეგისტრაცია">
+        
+        <meta name="keywards" content="ცხრილი, მონაცემები, რეგისტრაცია">
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <title>HTML/CSS -  რეგისტრაციის ფურცელი</title>
+    </head>
+
+    <body>
+    
+        <p> როგორ გავაკეთოთ ცხრილი </p>
+        
+        <h1> ცხრილი ნომერი 1 </h1>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th rowspan="2"> state of Health </th>
+                    <th colspan="2"> Fasting Value </th>
+                    <th> After Eating </th>
+                
+                    </tr>
+            <tr>
+            
+            <th> Minimum  </th>
+            <th>  Maximum </th>
+            <th> 2 Hours after eating </th>
+            
+            </tr>
+            </thead>
+            
+            
+            <tbody>
+                <tr>
+                    <td>  Healthy </td>
+                    <td>  70 </td>
+                    <td>  100 </td>
+                    <td>  Less Than 140     </td>
+                    </tr>
+                    
+                    <tr>
+                    <td> Pre-Diabetes  </td>
+                    <td>  100 </td>
+                    <td>  126 </td>
+                    <td>  140 to 200 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Diabetes  </td>
+                        <td>  More Than 126 </td>
+                        <td> N/A  </td>
+                        <td> More Tnan 200 </td>
+                        </tr>
+            
+            </tbody>
+            
+            
+            </table>
+
+            <h1> ცხრილი ნომერი 2 </h1>
+
+            <table border="1"> 
+                <thead>
+                    <tr>
+                        <th> &#8470 </th>
+                        <th> Full Name </th>
+                        <th> Postion  </th>
+                        <th> Salary </th>
+                        <th> Type </th>
+                    </tr>
+                    
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> Bill Gates </td>
+                        <td> Founder Microsoft </td>
+                        <td> $1000 </td>
+                        <td rowspan="4"> Company Founder </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> 2 </td>
+                        <td> Steve Jobs </td>
+                        <td> Founder Apple </td>
+                        <td> $1200 </td>
+                    </tr>
+
+                    <tr>
+                        <td> 3 </td>
+                        <td> Larry Page </td>
+                        <td> Founder Google </td>
+                        <td> $1100 </td>
+                    </tr>
+
+                    <tr>
+                        <td> 4 </td>
+                        <td> Mark Zuckeberg </td>
+                        <td> Founder Facebook </td>
+                        <td> $1300 </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3"> Total Expense: </td>
+                        <td> $4600 </td>
+                    </tr>
+
+
+
+                </tbody>
+            
+
+
+
+
+
+            </table> <br> <br>
+            
+        <FORM>
+            <h1> რეგისტრაცია </h1>
+
+
+            <label for="company name"> კომპანიის დასახელება</label><br>
+            <input type="text" name="company name" placeholder="კომპანიის დასახელება"> <br><br>
+
+             <label for="mail"> ელ. ფოსტა </label><br>
+            <input type="email" name="mail" placeholder="ელ.ფოსტა">  <br> <br>
+
+            <label for="Phone Number"> ტელეფონის ნომერი </label> <br>
+            <input type="tel" name="Phone Number"> <br> <br>
+
+            <label for="address"> კომპანიის მისამართი</label><br>
+            <input type="text" name="address"><br><br>
+
+            
+            <select name="company">
+                <option disabled selected> კომპანიის ტიპი </option>
+                <option> შეზღუდული პასუხისმგებლობის საზოგადოება </option>
+                <option> სააქციო საზოგადოება </option>
+                <option> ინდ.მეწარმე </option>
+                
+            </select> <br><br>
+
+            <label for="registration date"> რეგისტრაციის თარიღი </label> <br>
+            <input type="date" name="registration date"> <br> <br>
+
+            <label for=""> არის თუ არა კომპანია დღგ-ს გადამხდელი? </label>
+            <label for="VAT tax">
+                <input type="radio" name="VAT tax"> კი
+            </label>
+            
+            <label for="VAT tax"> 
+                <input type="radio" name="VAT tax"> არა
+            </label> <br> <br>
+
+            <label for="logo"> ლოგოს ატვირთვა </label>
+            <input type="file" name="logo"> <br> <br>
+
+            <label for="პაროლი"> შეიყვანეთ პაროლი </label> <br>
+            <input type="password" name="პაროლი"> <br> <br>
+
+            <input type="submit">
+
+
+        </FORM>
+
+
+            
+            </body>
+            
+            
+            </html>

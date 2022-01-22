@@ -1,0 +1,32 @@
+@font-face {
+    font-family:mukta-bold ;
+    src: url(../fonts/Mukta-Bold.ttf);
+}
+
+@font-face {
+    font-family: alk-sanet ;
+    src: url(../fonts/alk-sanet.ttf);
+}
+
+*{box-sizing: border-box;}
+
+
+.box {
+    width: 600px;
+    height: 600px;
+    background: rgb(11,185,80);
+    background: linear-gradient(133deg, rgba(11,185,80,1) 17%, rgba(32,123,231,1) 95%);
+}
+
+.innerbox {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 80, 80);
+
+
+}
+
+.span {
+    display: block;
+    margin: auto;
+}

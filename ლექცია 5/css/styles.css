@@ -1,0 +1,103 @@
+@font-face {
+    font-family: mukta;
+    src: url('../font/Mukta-Bold.ttf');
+}
+@font-face {
+    font-family: alk-sanet;
+    src: url('../font/alk-sanet.ttf');
+}
+
+*{ box-sizing: border-box;}
+
+
+.header{
+    width: 1000px;
+    height: 70px;
+    margin: auto;
+    background-color: black;
+    display:flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+
+
+ .nav{
+    width: 100%;
+    
+    
+    
+ }
+
+.navbar{
+  align-items: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  display: flex;
+  
+  
+  }
+
+.navbar-link{
+    text-decoration: none;
+    color:rgb(172, 169, 169);
+    font-family: alk-sanet;
+    padding: 23px 15px;
+    
+    display: inline-block;
+    
+}
+
+.navbar-li {
+    list-style: none;
+    display: inline-block;
+ 
+}
+
+
+ .h1{
+    color: white;
+    margin-top: 70px;
+ }
+
+.p{
+    color: white;
+  
+}
+
+.a{
+    color: black;
+    text-decoration: none;
+    font-family: mukta;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 0px 15px;
+    margin: 0;
+    background-color: white;
+    margin-top: 10px;
+    
+}
+
+.whitepaper{  
+    width:700px;
+    color:black;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 100px;
+   max-width: 100%;
+}
+    
+
+    .box{
+        width: 1000px;
+        height:300px;
+        border: 2px solid #0d6efd;
+        background-color: #0d6efd;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+.h3{
+    color: white;
+    font-family: mukta;
+}

@@ -1,0 +1,259 @@
+@font-face {
+    font-family: alk-sanet ;
+    src: url(../font/alk-sanet.ttf);
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1140px;
+    margin: auto;
+    max-width: 100%;
+    padding: 5px 20px;
+}
+
+nav{
+    box-shadow: 3px 3px 3px gray;
+    z-index: 99;
+}
+
+nav .row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    margin-left: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    width: fit-content;
+    
+}
+
+.navbar li:last-child a{
+    margin-right: -10px;
+}
+
+.navbar li a{
+    font-family: alk-sanet;
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px;
+}
+
+.logo{
+    width: 80px;
+
+}
+
+header{
+    box-shadow: 3px 3px 3px gray;
+    background-image: url(../Image/philosopher.jpg);
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    background-position-x: 100px;
+}
+
+header .row{
+    justify-content: flex-end;
+    
+}
+
+.textbox{
+    display: inline-block;
+    align-self: center;
+    font-family: alk-sanet;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgba(238, 236, 236, 0.87);
+    
+}
+
+.textbox p{
+    margin-top: 30px;
+    color: grey;
+}
+
+.productbox{
+    margin-top: 80px;
+}
+
+.productbox li{
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+     cursor: pointer;
+}
+
+.product li:first-child{
+    background-color: black;
+    color: white;
+   
+}
+
+.productbox .row{
+    width: 100%;
+    
+}
+
+
+.productcard{
+    margin-top: 40px;
+}
+
+.productcard .row{
+    justify-content: space-between;
+}
+
+.col-3{
+    width: 33.33%;
+   
+}
+
+.card{
+    width: 100%;
+    padding: 20px;
+    border: 2px solid rgba(155, 153, 153, 0.363);
+    margin-bottom: 30px;
+
+}
+
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.cardbody{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.cardbody h3,p{
+    margin: 15px 0px;
+}
+
+.productcard .row .col-3:nth-child(2) img{
+    height: 380px;
+}
+
+.blog .card{
+    border: none;
+}
+
+.blog{
+    font-family: alk-sanet;
+    text-align: center;
+    margin-top: 80px;
+    color: grey;
+}
+
+.blog h1{
+    display: inline-block;
+    margin: auto;
+    margin: 20px 0px;
+
+}
+
+
+.copyright{
+    width: 30px;
+    padding: 5px;
+}
+
+@media (max-width:955px){
+    .navbar li:last-child a{
+        margin-right: 0px;
+    }
+
+    .textbox{
+        font-size: large;   
+    }
+
+    header{
+        height:50vh;
+        background-size: 60%;
+        background-position-x: left;
+    }
+
+}
+
+@media(max-width:840px){
+    .logo{
+        visibility: hidden;
+    }
+
+    .navbar li a{
+        padding: 10px;
+    }
+
+    .copyright{
+        visibility: hidden;
+    }
+
+    .copyright + p{
+        visibility: hidden;
+    }
+
+    .navbar{
+        position: relative;
+        left: -50px;
+    }
+}
+
+@media (max-width:725px){
+    .col-3{
+        width: 48%;
+    }
+
+    .navbar li a{
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    header{
+        height: 35vh;
+        background-size:48%;
+
+    }
+}
+
+@media (max-width:550px){
+    header{
+        height: 25vh;
+        background-size: 40%;
+    }
+
+    .textbox{
+        font-size: small;
+    }
+
+    .productbox .row{
+        justify-content: center;
+    }
+}

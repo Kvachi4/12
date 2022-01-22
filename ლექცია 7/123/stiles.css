@@ -1,0 +1,107 @@
+
+
+
+*{box-sizing: border-box;}
+
+.body{
+    margin: 0;
+}
+
+.box{
+    width: 1000px;
+    height: 600px;
+    background: rgb(11,185,80);
+    background: linear-gradient(133deg, rgba(11,185,80,1) 17%, rgba(32,123,231,1) 95%);
+    padding-top: 50px ;
+}
+
+
+.innerbox{
+    width: 750px;
+    height: 500px;
+    background-color:white;
+    display: block;
+    margin: auto;
+    padding: 50px;
+    position: relative;
+    
+    
+}
+
+.call{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#submit {
+    background: rgb(11,185,80);
+    background: linear-gradient(133deg, rgba(11,185,80,1) 17%, rgba(32,123,231,1) 95%);
+    display: inline-block;
+    border-radius: 0px;
+    margin: 0;
+    padding: 15px 25px;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 320px;
+}
+
+form input[name="message"]{
+    width: 600px;
+    height: 100px;
+    background-color: rgba(224, 221, 221, 0.774);
+    border: none;
+}
+
+form input[name="website"]{
+    width: 600px;
+    height: 40px;
+    background-color: rgba(224, 221, 221, 0.774);
+    border: none;
+
+}
+
+ .message{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 20px;
+}
+
+.website{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 20px;
+}
+
+.movetext + span{
+    position: relative;
+    top: 0px;
+    left: -220px;
+    font-size: 14px;
+    opacity: 0.5;
+    transition: .7s;
+
+}
+
+form input[class="movetext"]{
+    width: 220px;
+    height: 40px;
+    background-color: rgba(224, 221, 221, 0.774);
+    border: none;
+    margin-top: 20px;
+}
+
+.movetext:focus + span{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    top: -35px;
+    
+}
+
+.movetext:focus{
+    outline: none;
+}

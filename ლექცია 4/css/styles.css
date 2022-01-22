@@ -1,0 +1,52 @@
+@font-face {
+    font-family: mukta;
+    src: url(../font/Mukta-Bold.ttf);
+}
+
+
+
+
+.card{
+    width: 275px;
+    box-shadow:3px 3px 6px gray;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.card img{
+    width:100%;
+}
+
+
+.graphictext{
+    color: tomato;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card-headers{
+    text-align: center;
+}
+
+.card-headers h4{ 
+margin:0;
+font-family: mukta; 
+}
+.card-headers p{
+    text-justify: auto;
+}
+
+#readmore{
+    background-color: tomato;
+    display: inline-block;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin:0;
+}
+  
+  
+  

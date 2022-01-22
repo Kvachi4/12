@@ -1,0 +1,50 @@
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://www.azz.com/wp-content/uploads/2020/08/protective_relay_panels_hero-min.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 58% 81%%;
+text-align: center;
+color: rgb(245, 9, 9);
+font-size: 25px;
+text-shadow: 3px 3px 3px black;
+}
+
+.centercontent{
+    width: 800px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-left: 400px;
+    margin-right: 50px;
+    
+}
+    
+
+.h1text{
+color: floralwhite;
+text-align: center;
+
+}
+
+.ptext{
+color:ghostwhite;
+font-size: 16px;
+line-height: 1,2;
+letter-spacing: 1.5px;
+text-align: justify;
+
+}
+
+.footer{
+    height: 670px;
+    background-image: url(https://cdn.downtoearth.org.in/library/large/2019-09-26/0.43531700_1569503360_powergrid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+        
+    
+    
+}
+

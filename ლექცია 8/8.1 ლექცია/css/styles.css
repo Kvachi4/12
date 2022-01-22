@@ -1,0 +1,62 @@
+
+input[type="checkbox"]{
+    
+    display: none;
+}
+
+.davaleba{
+    position: relative;
+}
+
+
+.davaleba .div{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    border: 4px solid gray;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.479);
+    
+}
+
+.davaleba .div:before{
+    content: "";
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    border:none;
+    background-color: white;
+    border-radius: 15px;
+    top: 5px;
+    left: 5px;
+   
+
+}
+
+.checkspan .secondspan:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: gray;
+    left: 45px;
+    top: 45px;
+}
+
+.davaleba  :checked ~ .div{
+    background-color: lime;
+    border-color: forestgreen;
+}
+
+
+.davaleba  :checked ~ .div:before{
+   
+    left: 140px;
+}
+
+.davaleba  :checked ~ .secondspan:before{
+    left: 140px;
+}

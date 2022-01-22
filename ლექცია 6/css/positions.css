@@ -1,0 +1,154 @@
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    width: auto;
+    height: fit-content;
+    background-color: grey;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    margin-left: 50px;
+}
+
+
+.card img{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+
+}
+
+
+
+.card-bottom{
+    position: relative;
+    top: 30px;
+    left: 15px;
+   
+    
+}
+
+
+.price{
+    color:mediumseagreen;
+    font-weight: bold;
+    font-size: x-large;
+    left: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.label{
+    font-size: x-large;
+}
+
+.product-describtion {
+    color: rgba(128, 128, 128, 0.705);
+
+}
+
+
+.cardtop{
+    width: 285px;
+    height: 160px;
+    background-color:rgba(0, 128, 0, 0.144);
+    
+    
+}
+
+.view{
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    top: 50%;
+    left: 25%;
+}
+
+.card2{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 2px 10px rgb(59, 59, 59);
+    
+}
+
+.header{
+    height: 150px;
+    background-image: url(https://i5.walmartimages.com/asr/98cb610a-cbcc-4dc6-9a6b-c830b83b76ef_1.61d1b614ce4ac5a73178fff62f52005b.jpeg);
+    background-size:cover ;
+   
+
+}
+
+
+.card2 img{
+    width: 50%;
+}
+
+
+.sizes p{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.644);
+    margin: 0;
+    line-height: 0;
+}
+
+.color{
+    display: flex;
+    justify-content: flex-start;
+    line-height: 0;
+    
+    
+}
+
+.blue{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:dodgerblue;
+    margin-right: 5px;
+    
+}
+
+.red{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:red;
+}
+
+.white{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.green{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:green;
+}
+
